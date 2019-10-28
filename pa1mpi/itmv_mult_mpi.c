@@ -138,7 +138,6 @@ int itmv_mult(double local_A[] /* in */, double local_x[] /* in */,
   }
 
   free(x);
-  MPI_Barrier(comm);
   return 1;
 }
 

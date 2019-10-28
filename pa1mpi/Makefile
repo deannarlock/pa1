@@ -1,7 +1,7 @@
 # Please put here the path of directory that conatins "mpicc" and "mpirun".
 # To know how to install OpenMPI, refer to the class website.
 MPI_PREFIX = ~/local/bin/
-NUM_PROC = 2
+NUM_PROC = 8
 CC      = gcc
 MPICC   = $(MPI_PREFIX)mpicc
 MPIRUN  = $(MPI_PREFIX)mpirun
